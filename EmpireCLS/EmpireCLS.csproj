@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{88160F57-6703-4632-9CC8-AB22185EFD83}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EmpireCLS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>EmpireCLS</AssemblyName>
+    <XamarinInsightsApiKey>8fc6cbba5bf6d773d85defe66a093f3ae14b515b</XamarinInsightsApiKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchFloat32>true</MtouchFloat32>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchProfiling>true</MtouchProfiling>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.Insights">
+      <HintPath>..\packages\Xamarin.Insights.1.10.6\lib\Xamarin.iOS10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+    <Reference Include="PLCrashReporterUnifiedBinding">
+      <HintPath>..\packages\Xamarin.Insights.1.10.6\lib\Xamarin.iOS10\PLCrashReporterUnifiedBinding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Json" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultViewController.cs" />
+    <Compile Include="DefaultViewController.designer.cs">
+      <DependentUpon>DefaultViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Profile.cs" />
+    <Compile Include="ApiClient\AccountClient.cs" />
+    <Compile Include="ApiClient\APIClientBase.cs" />
+    <Compile Include="ApiClient\CachesClient.cs" />
+    <Compile Include="ApiClient\PromotionClient.cs" />
+    <Compile Include="ApiClient\RatesClient.cs" />
+    <Compile Include="ApiClient\TokenClient.cs" />
+    <Compile Include="ApiClient\TripClient.cs" />
+    <Compile Include="Models\Trip.cs" />
+    <Compile Include="Models\ResponseBase.cs" />
+    <Compile Include="Models\RealTimeFleet.cs" />
+    <Compile Include="Models\Rate.cs" />
+    <Compile Include="Models\Geo.cs" />
+    <Compile Include="Models\CreditCards.cs" />
+    <Compile Include="Models\Corporate.cs" />
+    <Compile Include="Models\Application.cs" />
+    <Compile Include="Models\ApiBaseModel.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\TripNotificationType.cs" />
+    <Compile Include="Models\Quote.cs" />
+    <Compile Include="Models\CreditCardType.cs" />
+    <Compile Include="Utils\Net\XmlClientBase.cs" />
+    <Compile Include="Utils\Net\WebClientBase.cs" />
+    <Compile Include="Utils\Net\JsonWebClientBase.cs" />
+    <Compile Include="Utils\Net\IWebClient.cs" />
+    <Compile Include="Utils\ECLSAsyncApiStatus.cs" />
+    <Compile Include="UserContext.cs" />
+    <Compile Include="CacheContext.cs" />
+    <Compile Include="ApplicationContext.cs" />
+    <Compile Include="Models\BookingEntry.cs" />
+    <Compile Include="Models\Cache.cs" />
+    <Compile Include="Models\DefaultSettingsCache.cs" />
+    <Compile Include="Utils\Settings.cs" />
+    <Compile Include="Utils\GlobalVars.cs" />
+    <Compile Include="Utils\JsonUtil.cs" />
+    <Compile Include="Utils\LogContext.cs" />
+    <Compile Include="Utils\IDevice.cs" />
+    <Compile Include="Utils\LocationFinder.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Utils\LocationUtil.cs" />
+    <Compile Include="Utils\XMLUtil.cs" />
+    <Compile Include="Utils\ECLSAlertView.cs" />
+    <Compile Include="Utils\Net\Reachability.cs" />
+    <Compile Include="Utils\ObjectExtensions.cs" />
+    <Compile Include="AddressLookup\AddressLookupAggregator.cs" />
+    <Compile Include="AddressLookup\AddressLookupBing.cs" />
+    <Compile Include="AddressLookup\AddressLookupClient.cs" />
+    <Compile Include="AddressLookup\AddressLookupGoogle.cs" />
+    <Compile Include="AddressLookup\AddressLookupGooglePlace.cs" />
+    <Compile Include="AddressLookup\AddressLookupGooglePlaceDetail.cs" />
+    <Compile Include="AddressLookup\AddressLookupUtils.cs" />
+    <Compile Include="AddressLookup\InvalidAddressException.cs" />
+    <Compile Include="PickupDropController.cs" />
+    <Compile Include="PickupDropController.designer.cs">
+      <DependentUpon>PickupDropController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewViewConytoller.cs" />
+    <Compile Include="NewViewConytoller.designer.cs">
+      <DependentUpon>NewViewConytoller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSegueClass.cs" />
+    <Compile Include="LoginSegueClass.designer.cs">
+      <DependentUpon>LoginSegueClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ECLSPopover.cs" />
+    <Compile Include="ECLSUIUtil.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Insights.1.10.6\build\Xamarin.iOS10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.10.6\build\Xamarin.iOS10\Xamarin.Insights.targets')" />
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ApiClient\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Utils\Net\" />
+    <Folder Include="AddressLookup\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+</Project>

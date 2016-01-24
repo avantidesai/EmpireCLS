@@ -1,0 +1,17 @@
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/483-view-488.nib
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/64-view-69.nib
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UINavigationController-481.nib
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-64.nib
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/optimized/
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/bin/iPhoneSimulator/Debug/Xamarin.Insights.dll
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/bin/iPhoneSimulator/Debug/PLCrashReporterUnifiedBinding.dll
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/bin/iPhoneSimulator/Debug/EmpireCLS.exe.mdb
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/bin/iPhoneSimulator/Debug/EmpireCLS.exe
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/EmpireCLS.exe
+/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/obj/iPhoneSimulator/Debug/EmpireCLS.exe.mdb

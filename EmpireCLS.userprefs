@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="EmpireCLS/EmpireCLS.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmpireCLS/PickupDropController.cs">
+    <Files>
+      <File FileName="EmpireCLS/DefaultViewController.cs" Line="100" Column="1" />
+      <File FileName="EmpireCLS/Utils/ECLSAsyncApiStatus.cs" Line="45" Column="8" />
+      <File FileName="EmpireCLS/Utils/ECLSUIUtil.cs" Line="380" Column="1" />
+      <File FileName="EmpireCLS/CacheContext.cs" Line="247" Column="3" />
+      <File FileName="EmpireCLS/Models/BookingEntry.cs" Line="619" Column="4" />
+      <File FileName="EmpireCLS/UserContext.cs" Line="222" Column="1" />
+      <File FileName="EmpireCLS/Main.cs" Line="13" Column="1" />
+      <File FileName="EmpireCLS/PickupDropController.cs" Line="65" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/shvetadeshmukh/Projects/EmpireCLS/EmpireCLS/PickupDropController.cs" line="65" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="EmpireCLS/Utils/ECLSAsyncApiStatus.cs" line="44" offsetX="1382" offsetY="570" expression="invokeStrategy" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
